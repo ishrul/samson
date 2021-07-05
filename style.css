@@ -5,7 +5,8 @@ body{
      padding: 0; box-sizing: border-box;
     background-image: url(image/new.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:1500px 1000px;
+    background-position: top;
 }
 .first-line ul{
     width: 100%;
@@ -47,6 +48,7 @@ body{
 }
 .third-line{
     padding-left: 10%;
+    margin-bottom: 300px;
 }
 .head{
     padding-left: 10px;
@@ -60,8 +62,55 @@ body{
     margin-top: 70px;
 }
 .text{
+    font-size: 30px;
     font-weight: 900;
 }
 .third-line div ul li{
     padding-top: 10px;
+}
+.second-sec div{
+    background-color: red;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    padding: 40px 25%;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.second-sec{
+    margin-left: 10%;
+}
+.second-sec h1{
+    font-weight: 900;
+    font-size: 3em;
+    color: white;
+}
+.second-sec p{
+    font-size: 1.5em;
+    color: white;
+}
+.second-sec button{
+    font-size: 25px;
+    padding: 20px 80px;
+    border-radius: 50px;
+    background-color: #00008B;
+    color: white;
+}
+#one{
+    background-image: url(image/1bg.jpg);
+    background-position: bottom;
+}
+#two{
+    background-image: url(image/four.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1100px 400px;
+}
+#three{
+    background-image: url(image/three.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1100px 430px;
 }
