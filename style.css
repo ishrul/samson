@@ -91,16 +91,28 @@ body{
     font-size: 1.5em;
     color: white;
 }
-.second-sec button{
+.second-sec button a{
     font-size: 25px;
     padding: 20px 80px;
     border-radius: 50px;
     background-color: #00008B;
     color: white;
+    
+}
+.second-sec button a:hover {
+    background-color: black;
+    color: white;
+}
+
+.shadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 20px 20px 20px gray;
 }
 #one{
     background-image: url(image/1bg.jpg);
     background-position: bottom;
+    
 }
 #two{
     background-image: url(image/four.jpg);
@@ -113,4 +125,32 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1100px 430px;
+}
+.section-third{
+    display: flex;
+    background-color: #3f3fa3;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    margin-top: 100px;
+}
+.section-third h2{
+    color: white;
+    font-size: 1.5em;
+}
+.sec-third-div{
+    width: 50%;
+    margin-left: 60px;
+    font-size: 1.5em;
+}
+.sec-third-div p{
+    color: white;
+}
+.sec-third-div ul li{
+    color: skyblue;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: slategray;
 }
